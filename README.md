@@ -11,4 +11,4 @@ It was created for my high-school web development class, where I focused on lear
 
 ## Process and Documentation
 I recorded my full iterative design process and conducted UX testing with 5 users.  
-Both the **process documentation** and **UX testing report** are included as PDFs in this repository.
+Both the **SuperFan Iterative Process Slides.** and **UX testing report** are included as PDFs in this repository.
