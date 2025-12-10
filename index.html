@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Dallas Cowboys Expirence</title>
+    <link
+      rel="shortcut icon"
+      type="image/png"
+      href="images/logos/cowboys.png"
+    />
+  </head>
+  <body>
+    <div class="top">
+      <div class="center-content flex-wrap-side-left navy">
+        <img
+          src="images/jerseys/dak.png"
+          class="clickable2"
+          id="jersey2"
+          onclick="jerseyChange2()"
+        />
+      </div>
+      <div class="flex-wrap-main">
+        <div class="half">
+          <div class="center-content box navy">
+            <img
+              src="images/players/jump.jpg"
+              class="clickable2"
+              id="roger"
+              onclick="rogerStats()"
+            />
+          </div>
+          <div class="center-content box navy">
+            <img
+              src="images/players/celebrate.jpg"
+              class="clickable2"
+              id="troy"
+              onclick="troyStats()"
+            />
+          </div>
+        </div>
+        <div class="half">
+          <div class="center-content box navy">
+            <img
+              src="images/players/walk.jpg"
+              class="clickable2"
+              id="tony"
+              onclick="tonyStats()"
+            />
+          </div>
+          <div class="center-content box navy">
+            <img
+              src="images/players/pray.jpg"
+              class="clickable2"
+              id="dak"
+              onclick="dakStats()"
+            />
+          </div>
+        </div>
+      </div>
+      <div class="center-content flex-wrap-side-right navy">
+        <img
+          src="images/jerseys/staubach.png"
+          class="clickable2"
+          id="jersey1"
+          onclick="jerseyChange()"
+        />
+        <!--  <h1 class="center-content">1960</h1> -->
+      </div>
+    </div>
+    <div class="bottom">
+      <div class="center-content corner silver">
+        <img
+          src="images/logos/star.png"
+          onclick="openVideo()"
+          class="clickable1"
+        />
+      </div>
+      <div class="center-content banner navy">
+        <img
+          src="images/logos/banner2.png"
+          class="clickable2"
+          onclick="resetAll()"
+        />
+      </div>
+      <div class="center-content corner silver">
+        <img
+          src="images/logos/star.png"
+          onclick="openVideo()"
+          class="clickable1"
+        />
+      </div>
+    </div>
+    <audio src="audios/lastYear1.wav" id="past"></audio>
+    <audio src="audios/nextYear1.wav" id="future"></audio>
+    <audio src="audios/howabout.wav" id="how"></audio>
+    <audio src="audios/photo.wav" id="snap"></audio>
+    <script src="script.js"></script>
+  </body>
+</html>

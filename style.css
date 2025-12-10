@@ -1,0 +1,144 @@
+body {
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+  display: block;
+}
+img {
+  width: 65%;
+  height: 60%;
+}
+.center-content {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+.top {
+  height: 70%;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+.bottom {
+  height: 30%;
+  width: 100%;
+  display: flex;
+}
+.flex-wrap-side-left {
+  height: 100%;
+  width: 20%;
+  order: 1;
+}
+.flex-wrap-main {
+  height: 100%;
+  width: 60%;
+  order: 2;
+}
+.flex-wrap-side-right {
+  height: 100%;
+  width: 20%;
+  order: 3;
+}
+.banner {
+  height: 100%;
+  width: 60%;
+}
+.corner {
+  height: 100%;
+  width: 20%;
+}
+.half {
+  height: 50%;
+  width: 100%;
+  display: flex;
+}
+.box {
+  height: 100%;
+  width: 50%;
+}
+/* https://www.w3schools.com/cssref/css3_pr_flex-wrap.php */
+.flex-wrap {
+  height: 50%;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+.clickable1 {
+  filter: brightness(102%);
+  color: rgba(0, 30, 255, 0.504);
+  filter: drop-shadow(2px 2px 8px);
+}
+/* changes to the style when the user HOVERS */
+.clickable1:hover {
+  cursor: pointer;
+  filter: brightness(92%);
+  transform: scale(1.1);
+}
+/* changes to the style when the user CLICKS */
+.clickable1:active {
+  transform: scale(0.98);
+}
+.clickable2 {
+  filter: grayscale(33%) brightness(102%) drop-shadow(6px 6px 10px);
+}
+/* changes to the style when the user HOVERS */
+.clickable2:hover {
+  cursor: pointer;
+  filter: brightness(92%);
+  transform: scale(1.1);
+}
+/* changes to the style when the user CLICKS */
+.clickable2:active {
+  transform: scale(0.98);
+  filter: brightness(86%) drop-shadow(8px 8px 12px);
+}
+/* cowboys colors */
+.navy {
+  background-color: #041e42;
+}
+.silver {
+  background-color: #869397;
+}
+@media (max-width: 800px) {
+  top {
+    display: block;
+  }
+  .banner {
+    height: 100%;
+    width: 100%;
+  }
+  .corner {
+    height: 0%;
+    width: 0%;
+  }
+  .flex-wrap-side-left {
+    height: 30%;
+    width: 50%;
+    order: 2;
+  }
+  .flex-wrap-main {
+    height: 70%;
+    width: 100%;
+    order: 1;
+  }
+  .flex-wrap-side-right {
+    height: 30%;
+    width: 50%;
+    order: 3;
+  }
+}
+@media (max-width: 600px) {
+  .flex-wrap-side-left {
+    height: 0%;
+    width: 0%;
+  }
+  .flex-wrap-side-right {
+    height: 0%;
+    width: 0%;
+  }
+  .flex-wrap-main {
+    height: 100%;
+    width: 100%;
+    order: 1;
+  }
+}
